@@ -35,7 +35,7 @@ print('All ocurrences: \n{}\n'.format(all_dict))
 
 result = {}
 
-for k in all_ocurrences_dict:
+for k in all_dict:
     if k in completed_dict:
         percentage = float(completed_dict[k]) / float(all_dict[k]) * 100
         result[k] = '{:.2f}%'.format(percentage)

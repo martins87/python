@@ -11,7 +11,7 @@ print(log_data)
 
 lines = log_data.split('\n')
 
-completed = []
+completed_ocurrences = []
 all_ocurrences = []
 
 for line in lines:
@@ -20,24 +20,24 @@ for line in lines:
 
         # adds ocurrence to completed call list
         if line_data[-1] == 'COMPLETED':
-            completed.append(line_data[1])
-            completed.append(line_data[2])
+            completed_ocurrences.append(line_data[1])
+            completed_ocurrences.append(line_data[2])
 
         all_ocurrences.append(line_data[1])
         all_ocurrences.append(line_data[2])
 
-# counts number of times each key appears in list
-completed_dict = dict(Counter(completed))
-all_ocurrences_dict = dict(Counter(all_ocurrences))
+# counts number of times each number appears in the list
+completed_dict = dict(Counter(completed_ocurrences))
+all_dict = dict(Counter(all_ocurrences))
 
 print('Completed ocurrences: \n{}\n'.format(completed_dict))
-print('All ocurrences: \n{}\n'.format(all_ocurrences_dict))
+print('All ocurrences: \n{}\n'.format(all_dict))
 
 result = {}
 
 for k in all_ocurrences_dict:
     if k in completed_dict:
-        percentage = float(completed_dict[k]) / float(all_ocurrences_dict[k]) * 100
+        percentage = float(completed_dict[k]) / float(all_dict[k]) * 100
         result[k] = '{:.2f}%'.format(percentage)
     else:
         result[k] = '0.00%'

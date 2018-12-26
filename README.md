@@ -1,9 +1,9 @@
 # El Cant del Barça
 
-Tot el camp _és un clam_
-**Som la gent** _blaugrana_
-**Tant se val** _d'on venim_
-**Si del sud** _o del nord_
+Tot el camp _és un clam_\
+**Som la gent** _blaugrana_\
+**Tant se val** _d'on venim_\
+**Si del sud** _o del nord_\
 
 ## Ara estem d'acord, ara estem d'acord!
 - Una bandera ens agermana.

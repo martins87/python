@@ -21,6 +21,6 @@ Barça, Barça, Baaarça!**
 **Que mai ningu** _no ens podrà torcer._
 
 > Blaugrana al vent\
-> un crit valent\
-> tenim un nom el sap tothom:\
+> Un crit valent\
+> Tenim un nom el sap tothom:\
 > **Barça, Barça, Baaarça!**
